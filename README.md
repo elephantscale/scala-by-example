@@ -3,7 +3,7 @@
 ### Solutions to the exercises in the book "Scala by Example" by Martin Odersky, 2014
 
 * How to use this project for learning Scala
-  * This is a companion project to the book "[Scala by Example](doc/ScalaByExample.pdf)," and its intended use is explained in this post. 
+  * This is a companion project to the book "[Scala by Example](doc/ScalaByExample.pdf)," and its intended use is explained in [this post](https://shmsoft.blogspot.com/2015/10/learning-scala-by-example.html). 
   * In brief, read the chapter and try to do the exercises. 
   * Then compare your answers to the project's code.
 
