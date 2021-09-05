@@ -10,9 +10,7 @@ class Newton2 {
     else sqrtIterate(improve(guess, x), x)
 
   def improve(guess: Double, x: Double) = {
-    println("guess=" + guess + " x=" + x)
     val newGuess = (guess + x / guess) / 2
-    println("newGuess=" + newGuess)
     newGuess
   }
 

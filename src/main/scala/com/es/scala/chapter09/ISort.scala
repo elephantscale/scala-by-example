@@ -6,7 +6,7 @@ class ISort {
     else insert(xs.head, isort(xs.tail))
 
   def insert(i: Int, xs: List[Int]): List[Int] = {
-    // TODO finish up insert
-    Nil
+    if (xs.isEmpty) i :: Nil
+    else if (i < xs.head) i :: xs else xs.head :: insert(i, xs.tail)
   }
 }
