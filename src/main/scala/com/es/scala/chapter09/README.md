@@ -2,7 +2,7 @@
 
 ## ISort.scala
 
-* Example 9.1.1 - provide missing function `insert`
+* Exercise 9.1.1 - provide missing function `insert`
 * My code is OK, and it agrees with what Martin Odersky shows
 in the following text explaining the real List implementation using case classes. So we can submit this solution.
 
