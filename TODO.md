@@ -1,3 +1,4 @@
 # Next TODO
 
-* Then go to chapter 8
+* Go to chapter 8
+* Cleanup tests for chapters 6 and 7

@@ -1,5 +1,7 @@
 package com.es.scala.chapter07
 
+import org.scalatest.FunSpec
+
 
 //class ExprTest extends Specification {
 //  "com.es.scala.chapter07.Expr" should {
@@ -8,3 +10,11 @@ package com.es.scala.chapter07
 //    }
 //  }
 //}
+
+class ExprTest extends FunSpec {
+  describe("Number::eval") {
+    it ("should do eval") {
+      pending
+    }
+  }
+}

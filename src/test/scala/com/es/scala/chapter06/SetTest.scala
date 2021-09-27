@@ -1,5 +1,7 @@
 package com.es.scala.chapter06
 
+import org.scalatest.FunSpec
+
 
 //class SetTest extends Specification {
 //  "com.es.scala.chapter06.IntSet" should {
@@ -14,3 +16,11 @@ package com.es.scala.chapter06
 //    }
 //  }
 //}
+
+class ExprTest extends FunSpec {
+  describe("Set::contain") {
+    it ("checks element containment") {
+      pending
+    }
+  }
+}
