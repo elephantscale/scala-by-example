@@ -11,7 +11,7 @@ class FactorialTest extends FunSpec {
   }
 
   describe("FactorialTest::factorialR") {
-    it("should calculate factorial") {
+    it("should calculate factorial with tail-recursive function") {
       assert(new Factorial().factorialR(5) == 120)
     }
   }
