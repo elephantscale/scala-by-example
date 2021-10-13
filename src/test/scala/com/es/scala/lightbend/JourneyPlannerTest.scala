@@ -13,5 +13,10 @@ class JourneyPlannerTest extends FunSpec {
         pending
       }
     }
+    describe("JourneyPlanner::stopsAt") {
+      it("trains that stop at a station") {
+        pending
+      }
+    }
   }
 }
