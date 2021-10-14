@@ -10,7 +10,7 @@ class TrainTest extends FunSpec {
       val t2 = new Time(13, 0)
       val s1 = Station("Piter")
       val s2 = Station("Moskva")
-      Train("Express", 9, Seq( (t1, s1) , (t2, s2)) )
+      Train(InterCityExpress(8), "Express", 9, Seq( (t1, s1) , (t2, s2)) )
       assert(true)
     }
   }

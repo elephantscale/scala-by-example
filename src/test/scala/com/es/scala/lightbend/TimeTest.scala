@@ -41,4 +41,10 @@ class TimeTest extends FunSpec {
       assert(thrown.getMessage == "requirement failed: Invalid minutes")
     }
   }
+  describe("Formatting with toString") {
+    it ("should correctly format with overridden toString") {
+      val toStringTest = new Time(4, 5).toString()
+      assert(toStringTest == "04:05")
+    }
+  }
 }
