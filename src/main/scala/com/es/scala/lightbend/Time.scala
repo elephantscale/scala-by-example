@@ -1,6 +1,8 @@
 package com.es.scala.lightbend
 
-class Time (val hours: Int = 0, val minutes: Int = 0) extends Ordered[Time] {
+import play.api.libs.json.{JsNumber, JsObject, JsValue}
+
+case class Time (val hours: Int = 0, val minutes: Int = 0) extends Ordered[Time] {
 
   require(hours >= 0 && hours < 24, "Invalid hours")
   require(minutes >= 0 && minutes < 60, "Invalid minutes")
@@ -14,6 +16,10 @@ class Time (val hours: Int = 0, val minutes: Int = 0) extends Ordered[Time] {
   override def toString(): String = f"$hours%02d:$minutes%02d"
 
   override def compare(that: Time): Int = this.asMinutes - that.asMinutes
+
+  def toJson: JsValue = JsObject(
+    Map("hours" -> JsNumber(hours), "minutes" -> JsNumber(minutes))
+  )
 
 }
 
