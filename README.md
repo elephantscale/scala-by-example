@@ -1,6 +1,6 @@
 # scala-by-example
 
-### Solutions to the exercises in the book "Scala by Example" by Martin Odersky, 2014
+### Solutions to the exercises in the book "Scala by Example" by Martin Odersky, 2014, plus more labs from Lightbend
 
 * How to use this project for learning Scala
   * This is a companion project to the book "[Scala by Example](doc/ScalaByExample.pdf)," and its intended use is explained in [this post](https://shmsoft.blogspot.com/2015/10/learning-scala-by-example.html). 
